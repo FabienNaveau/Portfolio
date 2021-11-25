@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PhotoProfil from "../../img/PhotoProfil.jpg"
+import "./index.css"
 
 export default function Content() {
     const description = "Bonjour, je suis Fabien Naveau, 30 ans développeur fullstack Javascript. Fraîchement sorti de formation, je suis à la recherche d'un Contrat à Durée Indeterminée afin de parfaire mes connaissances et monter en compétences.";
