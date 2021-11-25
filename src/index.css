@@ -1,0 +1,13 @@
+@import url("./components/Header");
+@import url("./components/Content");
+
+body {
+  margin: 0;
+  height:100vh;
+  font-family: 'Lobster Two', cursive;
+  background-color: white;
+}
+
+code {
+  font-family: 'Lobster Two', cursive;
+}

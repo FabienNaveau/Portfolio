@@ -1,0 +1,21 @@
+#main {
+    height: 70%;
+    padding: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+#main > p {
+    
+    color: black;
+    text-align: center;
+    font-size: 4rem;
+    margin-left: 4rem;
+}
+
+.content--img {
+    width: 500px;
+    height: 768px;
+    object-fit: cover;
+    border-radius: 10px;
+}
