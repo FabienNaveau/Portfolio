@@ -1,28 +1,65 @@
-#content {
-    height: 100%;
-    padding: 0 2rem;
+#presentation {
     display: flex;
-    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    
 }
 
-.content--imgbox {
-    height: 100%;
+#presentation > h2 {
+    display: none;
 }
 
-.content--imgbox__img {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 10px;
+.pres--imgbox {
+    background-image: url("../../img/Présentation.jpg");
+    background-size:cover;
+    background-position: center;
+    height: 400px;
+    width: 40%;
+    border-radius: 20px;
+    margin: 2rem;
 }
 
-.content--p {
-    height: 100%;
+.pres--para {
+    width: 60%;
     display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
+    flex-direction: column; 
+    justify-content: center;
+    margin-right: 2rem;
 }
 
-.content--p > p {
-    font-size: 2rem;
+.pres--para > p {
+    font-size: 1.6rem;
 }
+
+@media screen and (max-width: 1200px) {
+    .pres--para > p {
+        font-size: 1.2rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #presentation > h2 {
+        display: inline;
+        font-size: 2rem;
+    }
+
+    .pres--imgbox {
+        display: none;
+    }
+
+    .pres--para {
+        margin-top: 2rem;
+    }
+
+    .pres--para > p {
+        font-size: 1rem;
+    }
+}
+

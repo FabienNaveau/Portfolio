@@ -1,7 +1,5 @@
 import React, { useState } from "react"
 import "./index.css"
-import { NavLink } from 'react-router-dom'
-import Logo from "../../img/LogoPortfolio.png"
 
 function toggleNavbar(event) {
     const menuElm = document.querySelector(".navbar-menu");
