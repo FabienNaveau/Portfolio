@@ -18,7 +18,9 @@ export default function Content() {
                     <p>{secondParagraph}</p>
                 </div>
             </div>
-            <p>Bienvenue sur mon portfolio</p>
+            <div className="arrow-down">
+                <img src={ArrowDown} />
+            </div>
         </section>
     )
 }

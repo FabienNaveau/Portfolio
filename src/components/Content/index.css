@@ -38,6 +38,17 @@
     font-size: 1.3rem;
 }
 
+.arrow-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.arrow-down > img {
+    width: 100px;
+}
+
 
 @media screen and (max-width: 1200px) {
     .pres--para > p {
@@ -56,28 +67,68 @@
         flex-direction: column;
         align-items: center;
         margin-top: 2rem;
+        gap: 4rem
     }
 
     #presentation > h2 {
         display: inline;
         font-size: 2rem;
+        
     }
 
     .pres--content {
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
     }
 
     .pres--imgbox {
-        display: none;
+        margin: 0;
+        width: 60%
     }
-
+    
     .pres--para {
         margin-top: 2rem;
     }
 
     .pres--para > p {
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pres--imgbox {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    #presentation {
+        gap: 1rem;
+    }
+
+    .arrow-down {
+        display: none;
+    }
+
+    .pres--para > p {
         font-size: 1rem;
+        margin: 0;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    #presentation {
+        gap: 0;
+    }
+
+    .pres--para > p {
+        font-size: .9rem;
     }
 }
 
