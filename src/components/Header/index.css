@@ -12,9 +12,6 @@
     font-size: 1.5rem;
 }
 
-.navbar-burger {
-    margin-left: 45%;
-}
 
 @media screen and (max-width: 600px) {
     .navbar-start {

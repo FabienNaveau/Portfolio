@@ -40,7 +40,7 @@
 
 .arrow-down {
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     margin-top: 5rem;
 }
@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 1200px) {
     .pres--para > p {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-right: 1rem;
     }
 
@@ -85,7 +85,8 @@
 
     .pres--imgbox {
         margin: 0;
-        width: 60%
+        width: 50%;
+        height: 300px;
     }
     
     .pres--para {
@@ -93,13 +94,25 @@
     }
 
     .pres--para > p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         text-align: justify;
+    }
+
+    .arrow-down {
+        display: none;
     }
 }
 
 @media screen and (max-width: 768px) {
+    #presentation {
+        gap: 0;
+    }
+    
     .pres--imgbox {
+        display: none;
+    }
+
+    .arrow-down {
         display: none;
     }
 }
