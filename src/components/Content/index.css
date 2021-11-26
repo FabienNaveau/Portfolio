@@ -1,7 +1,9 @@
 #presentation {
     display: flex;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 6rem;
+    height: 100vh;
+    flex-direction: column;
     
 }
 
@@ -9,32 +11,42 @@
     display: none;
 }
 
+.pres--content {
+    display: flex;
+}
+
 .pres--imgbox {
     background-image: url("../../img/Présentation.jpg");
     background-size:cover;
-    background-position: center;
+    background-position: bottom left;
     height: 400px;
     width: 40%;
     border-radius: 20px;
-    margin: 2rem;
+    margin: 3rem 2rem;
+    float: left;
 }
 
 .pres--para {
     width: 60%;
     display: flex;
     flex-direction: column; 
-    justify-content: center;
     margin-right: 2rem;
+    justify-content: center;
 }
 
 .pres--para > p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
+
 
 @media screen and (max-width: 1200px) {
     .pres--para > p {
         font-size: 1.2rem;
         margin-right: 1rem;
+    }
+
+    .pres--imgbox {
+        margin-top: 2rem;
     }
 }
 
@@ -43,11 +55,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 2rem;
     }
 
     #presentation > h2 {
         display: inline;
         font-size: 2rem;
+    }
+
+    .pres--content {
+        display: flex;
+        justify-content: center;
     }
 
     .pres--imgbox {
