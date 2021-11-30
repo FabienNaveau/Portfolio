@@ -15,7 +15,8 @@
     height: 40%;
     margin: 0 2rem 1rem 2rem;
     border-radius: 5px;
-    box-shadow: 9px -8px 12px -4px rgba(0,0,0,0.3);
+    border: thick double rgb(216, 213, 213);
+    
 }
 
 .projets--card__content {
@@ -33,6 +34,8 @@
 .projets--card__img > img {
     object-fit: cover;
     height: 100%;
+    box-shadow: 0px 2px 12px 4px rgba(0,0,0,0.3);
+    border-radius: 5px;
 }
 
 .card--content__tags {
@@ -49,6 +52,19 @@
 .card--content__link {
     display: flex;
     justify-content: space-around;
+}
+
+.card--content__link > a {
+    color: white;
+    background-color: black;
+    
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+
+.card--content__link > a:hover {
+    transform: scale(0.96);
+    transition: 0.5s;
 }
 
 .tag--html:hover {
