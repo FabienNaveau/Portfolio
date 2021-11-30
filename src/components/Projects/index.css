@@ -8,3 +8,76 @@
     text-align: center;
     margin-bottom: 2rem;
 }
+
+.projets--card {
+    display: flex;
+    padding: 2rem;
+    height: 40%;
+    margin: 0 2rem 1rem 2rem;
+    border-radius: 5px;
+    box-shadow: 9px -8px 12px -4px rgba(0,0,0,0.3);
+}
+
+.projets--card__content {
+    width: 60%;
+    margin-left:  1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.projets--card__img {
+    width: 40%;
+}
+
+.projets--card__img > img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.card--content__tags {
+    display: flex;
+}
+
+.card--content__tags > p {
+    margin-right: 1rem;
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card--content__link {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tag--html:hover {
+    background-color: #DD4B25;
+    color: white;
+}
+
+.tag--css:hover {
+    background-color: #2861E8;
+    color: white;
+}
+
+.tag--react:hover {
+    background-color: #00D4F7;
+    color: white;
+}
+
+.tag--node:hover {
+    background-color: #87C149;
+    color: white;
+}
+
+.tag--express:hover {
+    background-color: #9A88D4;
+    color: white;
+}
+
+.tag--postgresql:hover {
+    background-color: #2F5E8D;
+    color: white;
+}
+
