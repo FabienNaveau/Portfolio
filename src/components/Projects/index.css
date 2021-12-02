@@ -25,6 +25,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+}
+
+.projets--card__content > h3 {
+    font-size: 1.5rem;
 }
 
 .projets--card__img {
@@ -52,6 +57,7 @@
 .card--content__link {
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .card--content__link > a {
@@ -69,30 +75,36 @@
 .tag--html:hover {
     background-color: #DD4B25;
     color: white;
+    border: none;
 }
 
 .tag--css:hover {
     background-color: #2861E8;
     color: white;
+    border: none;
 }
 
 .tag--react:hover {
     background-color: #00D4F7;
     color: white;
+    border: none;
 }
 
 .tag--node:hover {
     background-color: #87C149;
     color: white;
+    border: none;
 }
 
 .tag--express:hover {
     background-color: #9A88D4;
     color: white;
+    border: none;
 }
 
 .tag--postgresql:hover {
     background-color: #2F5E8D;
     color: white;
+    border: none;
 }
 
