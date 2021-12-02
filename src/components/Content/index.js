@@ -10,7 +10,7 @@ export default function Content() {
         <section id="presentation">
             <h2>Présentation</h2>
             <div className="pres--content">
-                <div class="pres--imgbox">
+                <div className="pres--imgbox">
                     
                 </div>
                 <div className="pres--para">

@@ -10,31 +10,31 @@ function toggleNavbar(event) {
 export default function Header() {
     return (
         <header id="header">
-            <nav class="navbar" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
+            <nav className="navbar" role="navigation" aria-label="main navigation">
+                <div className="navbar-brand">
 
-                    <a onClick={toggleNavbar} role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <a onClick={toggleNavbar} role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                     </a>
                 </div>
 
-                <div id="navbarBasicExample" class="navbar-menu">
-                    <div class="navbar-start">
-                    <a href="#presentation" class="navbar-item">
+                <div id="navbarBasicExample" className="navbar-menu">
+                    <div className="navbar-start">
+                    <a href="#presentation" className="navbar-item">
                             Présentation
                         </a>
 
-                        <a href="#projets" class="navbar-item">
+                        <a href="#projets" className="navbar-item">
                             Projets
                         </a>
 
-                        <a href="#competences" class="navbar-item">
+                        <a href="#competences" className="navbar-item">
                             Compétences
                         </a>
 
-                        <a href="#contact" class="navbar-item">
+                        <a href="#contact" className="navbar-item">
                             Contact
                         </a>
                     </div>
