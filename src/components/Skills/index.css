@@ -40,99 +40,73 @@
 .competences--content__tags > div > p {
     padding: 1rem 1rem;
     border-radius: 5px;
-    box-shadow: 5px 5px 18px -4px rgba(0,0,0,0.44);
+    box-shadow: 5px 5px 18px -4px rgba(0,0,0,0.20);
     margin:  2rem 1rem;
 }
 
-.content--card__html > p:hover {
+.content--card__html > p {
     background-color: #DD4B25;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__css > p:hover {
+.content--card__css > p {
     background-color: #2861E8;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__javascript > p:hover {
+.content--card__javascript > p {
     background-color: #EFD81D;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__react > p:hover {
+.content--card__react > p {
     background-color: #00D4F7;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__nodejs > p:hover {
+.content--card__nodejs > p {
     background-color: #87C149;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__express > p:hover {
+.content--card__express > p {
     background-color: #9A88D4;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__pg > p:hover {
+.content--card__pg > p {
     background-color: #2F5E8D;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__sql > p:hover {
+.content--card__sql > p {
     background-color: #3094D4;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__sequelize > p:hover {
+.content--card__sequelize > p {
     background-color: #069CD4;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__git > p:hover {
+.content--card__git > p {
     background-color: #E84E31;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__github > p:hover {
+.content--card__github > p {
     background-color: black;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__scrum > p:hover {
+.content--card__scrum > p {
     background-color: grey;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
-.content--card__trello > p:hover {
+.content--card__trello > p {
     background-color: #0555CB;
     color: white;
-    transform: scale(1.1);
-    transition: 0.2s;
 }
 
 @media screen and (max-width: 1024px) {

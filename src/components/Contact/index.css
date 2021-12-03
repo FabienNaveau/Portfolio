@@ -1,0 +1,41 @@
+#contact {
+    margin-top: 2rem;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+#contact > h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact--content {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+
+.contact--description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact--description > p > .icon {
+    margin-right: 1.5rem;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragraph-description {
+    text-align: center;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 2rem;
+}

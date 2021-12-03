@@ -16,7 +16,7 @@
     height: 40%;
     margin: 0 2rem 1rem 2rem;
     border-radius: 5px;
-    border: thick double rgb(216, 213, 213);
+    /* border: thick double rgb(216, 213, 213); */
     
 }
 
@@ -52,7 +52,6 @@
 .card--content__tags > p {
     margin-right: 1rem;
     padding: .5rem 1rem;
-    border: 1px solid black;
     border-radius: 5px;
 }
 
@@ -65,7 +64,6 @@
 .card--content__link > a {
     color: white;
     background-color: black;
-    
     padding: .5rem 1rem;
     border-radius: 5px;
 }
@@ -74,37 +72,37 @@
     transform: scale(0.96);
 }
 
-.tag--html:hover {
+.tag--html {
     background-color: #DD4B25;
     color: white;
     border: none;
 }
 
-.tag--css:hover {
+.tag--css {
     background-color: #2861E8;
     color: white;
     border: none;
 }
 
-.tag--react:hover {
+.tag--react {
     background-color: #00D4F7;
     color: white;
     border: none;
 }
 
-.tag--node:hover {
+.tag--node {
     background-color: #87C149;
     color: white;
     border: none;
 }
 
-.tag--express:hover {
+.tag--express {
     background-color: #9A88D4;
     color: white;
     border: none;
 }
 
-.tag--postgresql:hover {
+.tag--postgresql {
     background-color: #2F5E8D;
     color: white;
     border: none;
