@@ -135,6 +135,38 @@
     transition: 0.2s;
 }
 
+@media screen and (max-width: 1024px) {
+
+    #competences {
+        height: auto;
+    }
+
+    .competences--content__card {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .competences--content__card > h3 {
+        margin-bottom: 1rem;
+    }
+
+    .competences--content__tags {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .competences--content__tags > div {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .competences--content__tags > div > p {
+        margin: .5rem auto;
+    }
+}
+
 
 
 

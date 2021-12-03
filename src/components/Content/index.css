@@ -144,3 +144,9 @@
     }
 }
 
+@media screen and (max-height: 640px) {
+    #presentation {
+        height: auto;
+    }
+}
+

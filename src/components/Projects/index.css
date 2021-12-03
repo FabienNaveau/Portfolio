@@ -151,3 +151,9 @@
         gap: 1rem;
     }
 }
+
+@media screen and (max-height: 640px) {
+    .projets--card {
+        height: auto;
+    }
+}
