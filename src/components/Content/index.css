@@ -4,6 +4,7 @@
     margin-top: 6rem;
     height: 100vh;
     flex-direction: column;
+    padding-top: 60px;
     
 }
 
@@ -67,7 +68,8 @@
         flex-direction: column;
         align-items: center;
         margin-top: 2rem;
-        gap: 4rem
+        gap: 4rem;
+        height: auto;
     }
 
     #presentation > h2 {
@@ -94,12 +96,8 @@
     }
 
     .pres--para > p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: justify;
-    }
-
-    .arrow-down {
-        display: none;
     }
 }
 

@@ -1,6 +1,7 @@
 #projets {
     margin-top: 2rem;
     height: 100vh;
+    padding-top: 60px;
 }
 
 #projets > h2 {
@@ -111,6 +112,10 @@
 
 
 @media screen and (max-width: 940px) {
+    #projets {
+        height: auto;
+    }
+    
     .projets--card {
         display: flex;
         flex-direction: column;

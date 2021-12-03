@@ -1,0 +1,153 @@
+#competences {
+    height: 100vh;
+    padding-top: 60px;
+}
+
+#competences > h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.competences--content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.competences--content__card {
+    width: 40%;
+}
+
+.competences--content__card > h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.competences--content__tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.competences--content__tags > div {
+    width: 40%;
+    text-align: center;
+    gap: 1rem;
+}
+
+.competences--content__tags > div > p {
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 18px -4px rgba(0,0,0,0.44);
+    margin:  2rem 1rem;
+}
+
+.content--card__html > p:hover {
+    background-color: #DD4B25;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__css > p:hover {
+    background-color: #2861E8;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__javascript > p:hover {
+    background-color: #EFD81D;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__react > p:hover {
+    background-color: #00D4F7;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__nodejs > p:hover {
+    background-color: #87C149;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__express > p:hover {
+    background-color: #9A88D4;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__pg > p:hover {
+    background-color: #2F5E8D;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__sql > p:hover {
+    background-color: #3094D4;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__sequelize > p:hover {
+    background-color: #069CD4;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__git > p:hover {
+    background-color: #E84E31;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__github > p:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__scrum > p:hover {
+    background-color: grey;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.content--card__trello > p:hover {
+    background-color: #0555CB;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
