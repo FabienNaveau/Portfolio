@@ -1,3 +1,3 @@
 # Portfolio
 
-Welcome to my Portolio
+Welcome to my Portfolio

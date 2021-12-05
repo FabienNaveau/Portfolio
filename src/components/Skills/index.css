@@ -109,6 +109,11 @@
     color: white;
 }
 
+.content--card__heroku > p {
+    background-color: #571DAC;
+    color: white;
+}
+
 @media screen and (max-width: 1024px) {
 
     #competences {

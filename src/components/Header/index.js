@@ -7,6 +7,14 @@ function toggleNavbar(event) {
     event.currentTarget.classList.toggle("is-active")
 }
 
+function closeNavbar() {
+    const burgerElm = document.querySelector(".navbar-burger");
+    burgerElm.classList.remove("is-active")
+    const menuElm = document.querySelector(".navbar-menu");
+    menuElm.classList.remove("is-active")
+
+}
+
 export default function Header() {
     return (
         <header id="header">
@@ -22,19 +30,19 @@ export default function Header() {
 
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="navbar-start">
-                    <a href="#presentation" className="navbar-item">
+                    <a href="#presentation" className="navbar-item" onClick={closeNavbar}>
                             Présentation
                         </a>
 
-                        <a href="#projets" className="navbar-item">
+                        <a href="#projets" className="navbar-item" onClick={closeNavbar}>
                             Projets
                         </a>
 
-                        <a href="#competences" className="navbar-item">
+                        <a href="#competences" className="navbar-item" onClick={closeNavbar}>
                             Compétences
                         </a>
 
-                        <a href="#contact" className="navbar-item">
+                        <a href="#contact" className="navbar-item" onClick={closeNavbar}>
                             Contact
                         </a>
                     </div>

@@ -58,6 +58,9 @@ function Skills() {
                             <div className="content--card__trello">
                                 <p>Trello</p>
                             </div>
+                            <div className="content--card__heroku">
+                                <p>Heroku</p>
+                            </div>
                         </div>
                 </div>
             </div>
