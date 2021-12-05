@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./index.css"
+import CV from "../../img/CV.pdf"
 import ArrowDown from "../../img/arrow-down.png"
 
 export default function Content() {
@@ -17,6 +18,9 @@ export default function Content() {
                     <p>{firstParagraph}</p><br/>
                     <p>{secondParagraph}</p>
                 </div>
+            </div>
+            <div className="pres--cv">
+                <a href={CV} target="_blank"><i className="icon-download fas fa-download"></i>Télécharger mon CV</a>
             </div>
             <div className="arrow-down">
                 <img src={ArrowDown} />

@@ -39,6 +39,22 @@
     font-size: 1.3rem;
 }
 
+.pres--cv {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.pres--cv > a {
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.icon-download {
+    margin-right: 1rem;
+}
+
 .arrow-down {
     display: flex;
     
