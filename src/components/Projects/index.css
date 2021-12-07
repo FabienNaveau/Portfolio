@@ -132,6 +132,11 @@
 
     .projets--card__content {
         width: 100%;
+        gap: 1rem;
+    }
+
+    .card--content__tags {
+        gap: 1rem;
     }
 }
 

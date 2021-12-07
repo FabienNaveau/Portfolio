@@ -40,7 +40,7 @@ const Projects = () => {
                         <p className="tag--css">CSS</p>
                         <p className="tag--react">React</p>
                     </div>
-                    <p className="card--content__paragraph">Conception de mon site afin de présenter mes projets et apprendre React.</p>
+                    <p className="card--content__paragraph">Conception de mon site entièrement fait main, afin de présenter mes projets et apprendre React.</p>
                     <div className="card--content__link">
                         <a href="#"><i className="fas fa-link"></i> Lien vers le site</a>
                         <a href="https://github.com/FabienNaveau/Portfolio" target="_blank"><i className="fab fa-github"></i> Github</a>
