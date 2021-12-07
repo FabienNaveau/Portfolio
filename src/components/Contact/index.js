@@ -23,6 +23,9 @@ function Contact() {
                     <img src={ContactImg} alt="Illustration de la page contact" />
                 </div>
             </div>
+            <div id="footer">
+                <p>&copy; Fait par Fabien Naveau - v1.0.0</p>
+            </div>
         </section>
     )
 }

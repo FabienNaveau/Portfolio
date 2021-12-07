@@ -1,7 +1,18 @@
 #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-top: 2rem;
     height: 100vh;
     padding-top: 60px;
+}
+
+#footer {
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:  1px solid rgb(214, 214, 214);
 }
 
 #contact > h2 {
@@ -63,4 +74,42 @@
 .icon {
     width: 32px !important;
     height: 24px;
+}
+
+@media screen and (max-width: 1150px){
+    .contact--content {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 75%;
+    }
+
+    .contact--imgbox {
+        margin-bottom: 2rem;
+    }
+
+    .contact--description > p {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .contact--imgbox > img {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .contact--content {
+        margin: 1rem 1rem;
+    }
+}
+
+
+@media screen and (max-height: 890px) {
+    #contact {
+        height: auto;
+    }
+
+    .contact-content {
+        height: auto;
+    }
 }

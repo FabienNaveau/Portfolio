@@ -160,7 +160,7 @@
     }
 }
 
-@media screen and (max-height: 640px) {
+@media screen and (max-height: 835px) {
     #presentation {
         height: auto;
     }

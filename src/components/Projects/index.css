@@ -151,7 +151,14 @@
 }
 
 @media screen and (max-height: 640px) {
+
+    #projets {
+        height: auto;
+    }
+    
     .projets--card {
         height: auto;
     }
 }
+
+
